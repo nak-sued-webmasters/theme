@@ -1,7 +1,13 @@
 /**********************************************************************
 * Overwirte Home
 **********************************************************************/
-
+#contentWrapper {
+  padding: 0;
+}
+.container {
+  width: 980px;
+  padding: 50px 0;
+}
 
 .news .news-list-view a {
   font-family: CooperHewitt-Medium;

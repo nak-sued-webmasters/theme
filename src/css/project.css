@@ -402,20 +402,7 @@ h4 span,a.button.close span,#socialShare ul li a.icon,#footermenu ul li a.icon,#
 .wrapperGrey .container a.button:hover{
     background:#82b1dd
 }
-.container{
-    margin:0 auto;
-    width:810px;
-    padding:0 170px 50px 0
-}
-.container .container{
-    padding:0
-}
-.container .grid-33 h1,.container .grid-33 h2,.container .grid-33 h3,.container .grid-33 p,.container .grid-50 h1,.container .grid-50 h2,.container .grid-50 h3,.container .grid-50 p{
-    margin-right:0
-}
-.container h1,.container h2,.container h3,.container p{
-    margin-right:270px
-}
+
 .grids img{
     margin-bottom:10px
 }
@@ -513,9 +500,7 @@ a.button{
     cursor:pointer;
     transition:background 0.1s
 }
-a.button span{
-    color:#39444e
-}
+
 a.button:hover{
     background:#e6e6e6
 }
