@@ -1,0 +1,21 @@
+/**********************************************************************
+* Overwirte Home
+**********************************************************************/
+
+
+.news .news-list-view a {
+  font-family: CooperHewitt-Medium;
+  font-size: 0.706em;
+}
+.news .news-list-view .article {
+  border: 0 none;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 25px;
+}
+.news .news-list-view .news-list-date-category {
+  font-size: 0.706em;
+  color: #9ea1a6;
+  display: block;
+  margin: 0 0 5px 0;
+}
