@@ -1,8 +1,8 @@
 {
-  "name": "bootstrap-theme-themestrap-sample",
+  "name": "bootstrap-theme-nak",
   "version": "0.0.1",
   "private": true,
-  "author": "Your Name",
+  "author": "Stephan Strittmatter",
   "main": "dist/bootstrap.css",
   "themestrap": {
     "name": "Themestrap Sample",
