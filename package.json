@@ -1,6 +1,7 @@
 {
-  "name": "themestrap",
-  "version": "0.3.0",
+  "name": "NAK-South-District-Theme",
+  "version": "0.0.1",
+  "repository": "https://github.com/nak-sued-webmasters/theme.git",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-less": "~0.6.4",
