@@ -6600,7 +6600,7 @@ h4:before {
   content: "\e074";
   color: #4b90cd;
   top: 1px;
-  right: 0.5em;
+  margin-right: 0.5em;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
   font-size: 90%;
