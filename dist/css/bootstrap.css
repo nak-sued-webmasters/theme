@@ -6661,6 +6661,9 @@ h5 {
 #mainmenu li a:hover {
   background-color: #eeeeee;
 }
+#mainmenu .dropdown-menu li a {
+  height: 3em;
+}
 #wordofmonth {
   margin-top: 2em;
 }
