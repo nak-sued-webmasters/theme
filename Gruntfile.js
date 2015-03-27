@@ -5,7 +5,12 @@ module.exports = function (grunt) {
          compile: {
             options: {
                compress: false,
-               paths: ['less', 'tmp', '<%= bowerDirectory %>/bootstrap/less']
+               paths: [
+                  'less',
+                  'tmp',
+                  '<%= bowerDirectory %>/bootstrap/less',
+                  '<%= bowerDirectory %>/yamm3/yamm'
+               ]
             },
             files: {
                'dist/css/bootstrap.css': ['less/theme.less']
@@ -23,6 +28,12 @@ module.exports = function (grunt) {
          }
       },
       watch: {
+         configFiles: {
+           files: [ 'Gruntfile.js' ],
+           options: {
+             livereload: true
+           }
+         },
          less: {
             files: ['less/*.less'],
             tasks: ['copy', 'less:compile', 'clean'],
@@ -45,7 +56,8 @@ module.exports = function (grunt) {
             cwd: 'dist/css',
             src: ['*.css', '!*.min.css'],
             dest: 'dist/css',
-            ext: '.min.css'
+            ext: '.min.css',
+            sourceMap: true
          }
       },
       connect: {
@@ -84,7 +96,28 @@ module.exports = function (grunt) {
                   dest: 'dist/fonts'
                }
             ]
+         },
+         jquery: {
+             files: [
+               {
+                  expand: true,
+                  cwd: '<%= bowerDirectory %>/jquery/dist',
+                  src: ['*'],
+                  dest: 'dist/js'
+               }
+            ]           
+         },
+         yamm3: {
+             files: [
+               {
+                  expand: true,
+                  cwd: '<%= bowerDirectory %>/yamm3/yamm',
+                  src: ['yamm.less'],
+                  dest: 'tmp/'
+               }
+            ]
          }
+         
       },
       clean: ['tmp']
    });
