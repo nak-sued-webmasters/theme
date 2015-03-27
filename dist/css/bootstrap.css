@@ -3431,7 +3431,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #4b90cd;
+  background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0px;
@@ -3462,7 +3462,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
-  background-color: #3784c7;
+  background-color: #f5f5f5;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -6681,11 +6681,25 @@ h5 {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
+#mainmenu .navbar-nav {
+  font-family: CooperHewitt-Semibold;
+}
+#mainmenu .navbar-nav li .dropdown-menu {
+  background-color: #e2e2e2;
+}
 #mainmenu li a {
   text-transform: uppercase;
   font-weight: 600;
 }
-#mainmenu .dropdown-menu li a {
+#mainmenu li a:hover {
+  text-decoration: none;
+}
+#mainmenu .yamm-content li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eeeeee;
+}
+#mainmenu .yamm-content .dropdown-menu {
   height: 3em;
 }
 #wordofmonth {

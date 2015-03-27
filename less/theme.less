@@ -128,7 +128,15 @@ h5 {
    }
 }
 #mainmenu {
-   li{
+   .navbar-nav {
+      font-family: CooperHewitt-Semibold;
+      li { 
+         .dropdown-menu {
+            background-color:   darken(@gray-lighter, 5%);
+         }
+      }
+   }
+   li {
       a {
          text-transform: uppercase;
          font-weight: 600;
@@ -137,16 +145,25 @@ h5 {
       }
       a:hover {
          //background-color: @gray-lighter;
+         text-decoration: none;
       }
-   } 
-   .dropdown-menu {
-      li {
-         a {
-            height: 3em;
-         }
+   }
+
+   .yamm-content {
+      li{
+         padding-top: 1em;
+         padding-bottom: 1em;
+         border-bottom: 1px solid @gray-lighter;
+      }
+      .dropdown-menu {
+
+         height: 3em;
+
       }
    }
 }
+
+
 
 #wordofmonth {
    margin-top: 2em;
