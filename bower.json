@@ -1,12 +1,12 @@
 {
-  "name": "bootstrap-theme-nak",
+  "name": "NAC-SouthGermany-District-Theme",
   "version": "0.0.1",
   "private": true,
   "author": "Stephan Strittmatter",
   "main": "dist/bootstrap.css",
   "themestrap": {
-    "name": "Themestrap Sample",
-    "repo": "https://github.com/divshot/themestrap"
+    "name": "NAC Theme",
+    "repo": "https://github.com/nak-sued-webmasters/theme"
   },
   "ignore": [
     "**/.*",
