@@ -4583,19 +4583,19 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #4b90cd;
   border-radius: 0px;
 }
 .breadcrumb > li {
   display: inline-block;
 }
 .breadcrumb > li + li:before {
-  content: "/\00a0";
+  content: "›\00a0";
   padding: 0 5px;
-  color: #cccccc;
+  color: #b7d2eb;
 }
 .breadcrumb > .active {
-  color: #777777;
+  color: #b7d2eb;
 }
 .pagination {
   display: inline-block;
@@ -6617,9 +6617,6 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
-body {
-  text-rendering: optimizeLegibility;
-}
 h4 {
   text-transform: uppercase;
   font-weight: 500;
@@ -6681,6 +6678,9 @@ h5 {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
+#mainmenu .navbar {
+  margin-bottom: 0px;
+}
 #mainmenu .navbar-nav {
   font-family: CooperHewitt-Semibold;
 }
@@ -6702,6 +6702,19 @@ h5 {
 }
 #mainmenu .yamm-content .dropdown-menu {
   height: 3em;
+}
+.docs-header {
+  background-color: #4b90cd;
+  padding: 30px 0;
+  color: #fff;
+  font-family: CooperHewitt-Medium;
+}
+.docs-header .breadcrumb a {
+  color: #b7d2eb;
+  text-decoration: underline;
+}
+.docs-header .breadcrumb a:hover {
+  text-decoration: none;
 }
 #wordofmonth {
   margin-top: 2em;
