@@ -1,3 +1,12 @@
+# Bootstrap Theme for Districts of NAC South Germany
+
+This Bootstrap based theme is created by using Themestrap. 
+This theme will be used for the districts of the New Apostolic Church at South Germany.
+
+Below you could find the copied description of Themestrap how to setup project.
+
+----
+
 # Themestrap
 https://github.com/divshot/themestrap
 **Themestrap** is a simple starter kit for constructing Twitter Bootstrap 3+ themes. It provides the skeleton
