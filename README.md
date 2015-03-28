@@ -1,5 +1,5 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-[![Build Status](https://secure.travis-ci.org/nak-sued-webmasters/theme.png?branch=master)](http://travis-ci.org/nak-sued-webmasters/theme)
+
 
 # Bootstrap Theme for Districts of NAC South Germany
 
