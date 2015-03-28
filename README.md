@@ -1,3 +1,6 @@
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+
 # Bootstrap Theme for Districts of NAC South Germany
 
 This Bootstrap based theme is created by using Themestrap. 
