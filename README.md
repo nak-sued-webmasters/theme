@@ -1,5 +1,4 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-[![Build Status](https://secure.travis-ci.org/stritti/theme.svg?branch=master)](https://travis-ci.org/stritti/theme)
 
 
 # Bootstrap Theme for Districts of NAC South Germany
