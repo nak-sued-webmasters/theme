@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-bezirksseiten.nak-sued.de	TRUE	/	FALSE	1999999999	PHPSESSID	mt509g33nnf039fimcivf8ps30
-
