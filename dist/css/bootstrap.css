@@ -6697,7 +6697,8 @@ h5 {
 #mainmenu .yamm-content li {
   padding-top: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
 }
 #mainmenu .yamm-content .dropdown-menu {
   height: 3em;
