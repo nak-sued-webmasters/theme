@@ -130,6 +130,7 @@ module.exports = function (grunt) {
    grunt.loadNpmTasks('grunt-contrib-clean');
    grunt.loadNpmTasks('grunt-contrib-connect');
    grunt.loadNpmTasks('assemble');
-   grunt.registerTask('default', ['copy', 'less', 'recess', 'cssmin', 'assemble', 'clean']);
+   grunt.registerTask('build', ['copy', 'less', 'recess', 'cssmin', 'assemble']);
+   grunt.registerTask('default', ['build', 'clean']);
    return grunt.registerTask('serve', ['connect', 'watch']);
 };
