@@ -10,12 +10,12 @@ before_install:
   - gem install compass
 
 install: 
- - npm install
- 
+  - npm install
+  - npm install -g bower grunt-cli
+  
 before_script: 
-  - 'npm install -g bower grunt-cli karma'
-  - 'bower install'
+  - npm install
   
 script:
- - grunt build --verbose
+ - grunt --gruntfile "Gruntfile.js" build --verbose
  
