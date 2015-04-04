@@ -17,167 +17,180 @@
 * Include Fonts
 **********************************************************************/
 @font-face {
-   font-family: 'CooperHewitt-Book';
-   src: url('../fonts/CooperHewitt-Book.eot');
-   src: url('../fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CooperHewitt-Book.woff') format('woff'),
-      url('../fonts/CooperHewitt-Book.ttf') format('truetype'),
-      url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'CooperHewitt-Book';
+    src: url('../fonts/CooperHewitt-Book.eot');
+    src: url('../fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CooperHewitt-Book.woff') format('woff'),
+        url('../fonts/CooperHewitt-Book.ttf') format('truetype'),
+        url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-   font-family: 'CooperHewitt-Medium';
-   src: url('../fonts/CooperHewitt-Medium.eot');
-   src: url('../fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CooperHewitt-Medium.woff') format('woff'),
-      url('../fonts/CooperHewitt-Medium.ttf') format('truetype'),
-      url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'CooperHewitt-Medium';
+    src: url('../fonts/CooperHewitt-Medium.eot');
+    src: url('../fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CooperHewitt-Medium.woff') format('woff'),
+        url('../fonts/CooperHewitt-Medium.ttf') format('truetype'),
+        url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-   font-family: 'CooperHewitt-Semibold';
-   src: url('../fonts/CooperHewitt-Semibold.eot');
-   src: url('../fonts/CooperHewitt-Semibold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CooperHewitt-Semibold.woff') format('woff'),
-      url('../fonts/CooperHewitt-Semibold.ttf') format('truetype'),
-      url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'CooperHewitt-Semibold';
+    src: url('../fonts/CooperHewitt-Semibold.eot');
+    src: url('../fonts/CooperHewitt-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CooperHewitt-Semibold.woff') format('woff'),
+        url('../fonts/CooperHewitt-Semibold.ttf') format('truetype'),
+        url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-   font-family: 'PT-Sans-Bold';
-   src: url('../fonts/PT-Sans-Bold.eot');
-   src: url('../fonts/PT-Sans-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/PT-Sans-Bold.woff') format('woff'),
-      url('../fonts/PT-Sans-Bold.ttf') format('truetype'),
-      url('../fonts/PT-Sans-Bold.svg#PT-Sans-Bold') format('svg');
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'PT-Sans-Bold';
+    src: url('../fonts/PT-Sans-Bold.eot');
+    src: url('../fonts/PT-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PT-Sans-Bold.woff') format('woff'),
+        url('../fonts/PT-Sans-Bold.ttf') format('truetype'),
+        url('../fonts/PT-Sans-Bold.svg#PT-Sans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-   //font-family: CooperHewitt-Book;
+    //font-family: CooperHewitt-Book;
 }
 
 h4 {
-   text-transform: uppercase;
-   font-weight: 500;
-   font-family: CooperHewitt-Semibold;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: CooperHewitt-Semibold;
 }
 h4:before {
-   content: "\e074";
-   color: @brand-primary;
-   top: 1px;
-   margin-right:0.5em;
-   display: inline-block;
-   font-family: 'Glyphicons Halflings';
-   font-size: 90%;
-   font-style: normal;
+    content: "\e074";
+    color: @brand-primary;
+    top: 1px;
+    margin-right:0.5em;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-size: 90%;
+    font-style: normal;
 }
 
 h5 {
-   font-weight: 600;
+    font-weight: 600;
 }
 
 .header {
-   padding-top: 2em;
-   padding-bottom: 2em;
 
-   #nak-brand {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 600;
-      font-size: 16px;
-   }
-   #district-brand {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 400;
-      font-size: 16px;
-   }
-   #metamenu {
-      float: right;
-      margin-bottom: 15px;
-      ul {
-         list-style: none;
+    @media (min-width: @screen-sm-min) {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;  
+    }
 
-         li {
-            float: left;
-            a {
-               display: block;
-               color: @gray-light;
-               text-transform: uppercase;
-               text-decoration: none;
-               margin-left: 18px;
-               transition: color 0.1s;
+    @media (min-width: @screen-md-min) {
+        padding-top: 1em;
+        padding-bottom: 1em; 
+    }
+    @media (min-width: @screen-lg-min) {
+        padding-top: 2em;
+        padding-bottom: 2em; 
+    }
+
+    #nak-brand {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    #district-brand {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    #metamenu {
+        float: right;
+        margin-bottom: 15px;
+        ul {
+            list-style: none;
+
+            li {
+                float: left;
+                a {
+                    display: block;
+                    color: @gray-light;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    margin-left: 18px;
+                    transition: color 0.1s;
+                }
+                a:hover {
+                    color: @gray-darker;
+                }
             }
-            a:hover {
-               color: @gray-darker;
-            }
-         }
-      }
-      .form-control {
-         border-bottom-left-radius: 20px;
-         border-top-left-radius: 20px;
-      }
-      .btn {
-         border-bottom-right-radius: 20px;
-         border-top-right-radius: 20px;
-      }
-   }
+        }
+        .form-control {
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        .btn {
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
 }
 #mainmenu {
     .navbar {
         margin-bottom: 0px;
     }
-   .navbar-nav {
-      font-family: CooperHewitt-Semibold;
-      li { 
-         .dropdown-menu {
-            background-color:   darken(@gray-lighter, 5%);
-         }
-      }
-   }
-   li {
-      a {
-         text-transform: uppercase;
-         font-weight: 600;
-         //border-right: 1px solid @gray-lighter;
-         //border-left: 1px solid @gray-lighter;
-      }
-      a:hover {
-         //background-color: @gray-lighter;
-         text-decoration: none;
-      }
-   }
+    .navbar-nav {
+        font-family: CooperHewitt-Semibold;
+        li { 
+            .dropdown-menu {
+                background-color:   darken(@gray-lighter, 5%);
+            }
+        }
+    }
+    li {
+        a {
+            text-transform: uppercase;
+            font-weight: 600;
+            //border-right: 1px solid @gray-lighter;
+            //border-left: 1px solid @gray-lighter;
+        }
+        a:hover {
+            //background-color: @gray-lighter;
+            text-decoration: none;
+        }
+    }
 
-   .yamm-content {
-      li {
+    .yamm-content {
+        li {
             padding-top: 1em;
             padding-bottom: 1em;
 
             border-top: 1px solid darken(@gray-lighter, 10%);
             border-bottom: 1px solid darken(@gray-lighter, 10%);
-         a {
+            a {
 
-         }
-      }
-      .dropdown-menu {
+            }
+        }
+        .dropdown-menu {
 
-         height: 3em;
+            height: 3em;
 
-      }
-   }
+        }
+    }
 }
 
 .docs-header {
     background-color: @brand-primary;
-    padding: 30px 0; 
+    //padding: 30px 0; 
+    margin-bottom: 2em;
     color: #fff;
     font-family: CooperHewitt-Medium;
-    
+
     .breadcrumb {
-        
+
         a {
             color: #b7d2eb;
             text-decoration: underline;
@@ -188,35 +201,39 @@ h5 {
     }
 }
 
-#wordofmonth {
-   margin-top: 2em;
+.content {
+    
+    .church {
+        .sat {
+            background-image: url(../img/satellituebertragung.png);
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+    #wordofmonth {
+        margin-top: 2em;
+    }
 }
 
-.footer {
-   font-family: CooperHewitt-Book;
-   font-weight: normal;
-   font-style: normal;
-   background-color: @brand-primary;
-   color: #fff;
-   margin-top: 2em;
-   padding-top: 2em;
-   padding-bottom: 2em;
-   ul {
-      list-style: none;
 
-      li {
-         float: left;
-         a {
-            display: block;
-            color: #fff;
-            text-transform: uppercase;
-            text-decoration: none;
-            margin-left: 18px;
-            transition: color 0.1s;
-         }
-         a:hover {
-            color: @gray-darker;
-         }
-      }
-   }
+.footer {
+    font-family: CooperHewitt-Book;
+    font-weight: normal;
+    font-style: normal;
+    background-color: @brand-primary;
+    color: #fff;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    a {
+        display: block;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    a:hover {
+        color: @gray-darker;
+    }
 }
