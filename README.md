@@ -1,7 +1,6 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Travis CI](https://travis-ci.org/nak-sued-webmasters/theme.svg)](https://travis-ci.org/nak-sued-webmasters/theme)
 
-
 # Bootstrap Theme for Districts of NAC South Germany
 
 This Bootstrap based theme is created by using Themestrap. 
