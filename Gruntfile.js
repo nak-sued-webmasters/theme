@@ -86,7 +86,7 @@ module.exports = function (grunt) {
          }
       },
       copy: {
-         imagaes: {
+         images: {
                   expand: true,
                   cwd: 'img',
                   src: ['*'],
@@ -132,6 +132,16 @@ module.exports = function (grunt) {
                   dest: 'tmp/'
                }
             ]
+         },
+         accessibility: {
+              files: [
+               {
+                  expand: true,
+                  cwd: '<%= bowerDirectory %>/bootstrapaccessibilityplugin/plugins',
+                  src: ['**/*'],
+                  dest: 'dist/'
+               }
+            ]            
          }
          
       },

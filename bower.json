@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "bootstrap":"3.3.4",
-    "yamm3": "1.0.0"
+    "yamm3": "1.0.0",
+    "bootstrapaccessibilityplugin": "1.0.4"
   }
 }

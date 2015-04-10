@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="de">
 
     <head>
         <meta charset="utf-8">
@@ -8,12 +8,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="../dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../dist/css/bootstrap-accessibility.css">
 
         <link rel="shortcut icon" href="../dist/img/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="../dist/img/favicon.ico" type="image/x-icon" />
 
         <script type="text/javascript" src="../dist/js/jquery.min.js"></script>
         <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../dist/js/bootstrap-accessibility.min.js"></script>
 
         <title>NAK Bezirk</title>
     </head>
@@ -42,7 +44,8 @@
                     <div class="row hidden-xs">
                         <form class="form-inline" action="#">
                             <div class="input-group">
-                                <input type="text" class="form-control" aria-label="Suchen" placeholder="Suchen">
+                                <label for="search" class="hidden">Suchen:</label>
+                                <input name="search" type="text" title="Suchen" class="form-control" aria-label="Suchen" placeholder="Suchen">
                                 <div class="input-group-btn">
                                     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                                 </div>
@@ -153,7 +156,7 @@
             <div class="jumbotron hidden-xs">
                 <div class="container">
                     <div class="col-md-6">
-                        <img src="http://placehold.it/640x420" class="img-responsive"  />
+                        <img src="http://placehold.it/640x420" class="img-responsive" alt="Platzhalter" />
                     </div>
                     <div class="col-md-6">
                         <h2>Willkommen im Bezirk [BEZIRKSNAME]</h2>
