@@ -48,6 +48,10 @@ module.exports = function (grunt) {
          assemble: {
             files: ['pages/*.html', 'pages/examples/*', 'README.md'],
             tasks: ['assemble']
+         },
+         copy: {
+            files: ['img/*', 'fonts/*'],
+            tasks: ['copy']
          }
       },
       cssmin: {
@@ -82,6 +86,18 @@ module.exports = function (grunt) {
          }
       },
       copy: {
+         images: {
+                  expand: true,
+                  cwd: 'img',
+                  src: ['*'],
+                  dest: 'dist/img'             
+         },
+         fonts: {
+                  expand: true,
+                  cwd: 'fonts',
+                  src: ['*'],
+                  dest: 'dist/fonts'             
+         },
          bootstrap: {
             files: [
                {
@@ -116,6 +132,16 @@ module.exports = function (grunt) {
                   dest: 'tmp/'
                }
             ]
+         },
+         accessibility: {
+              files: [
+               {
+                  expand: true,
+                  cwd: '<%= bowerDirectory %>/bootstrapaccessibilityplugin/plugins',
+                  src: ['**/*'],
+                  dest: 'dist/'
+               }
+            ]            
          }
          
       },

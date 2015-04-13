@@ -7912,9 +7912,25 @@ h5 {
   font-weight: 600;
 }
 
-.header {
-  padding-top: 2em;
-  padding-bottom: 2em;
+@media (min-width: 768px) {
+  .header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
 }
 
 .header #nak-brand {
@@ -7998,7 +8014,7 @@ h5 {
 }
 
 .docs-header {
-  padding: 30px 0;
+  margin-bottom: 2em;
   font-family: CooperHewitt-Medium;
   color: #fff;
   background-color: #4b90cd;
@@ -8013,7 +8029,13 @@ h5 {
   text-decoration: none;
 }
 
-#wordofmonth {
+.content .church .sat {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/satellituebertragung.png);
+}
+
+.content #wordofmonth {
   margin-top: 2em;
 }
 
@@ -8028,23 +8050,13 @@ h5 {
   background-color: #4b90cd;
 }
 
-.footer ul {
-  list-style: none;
-}
-
-.footer ul li {
-  float: left;
-}
-
-.footer ul li a {
+.footer a {
   display: block;
-  margin-left: 18px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  transition: color 0.1s;
 }
 
-.footer ul li a:hover {
+.footer a:hover {
   color: #222222;
 }
