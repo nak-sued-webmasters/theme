@@ -1,0 +1,22 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[less/*.less]
+indent_style = tab
+charset = utf-8
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+
+[examples/*.html]
+indent_style = tab
+charset = utf-8
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
