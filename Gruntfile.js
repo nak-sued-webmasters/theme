@@ -148,7 +148,11 @@ module.exports = function (grunt) {
         clean: ['tmp'],
         'gh-pages': {
             options: {
-                base: '.'
+                base: '.',
+                user: {
+                    name: 'stritti',
+                    email: 'Stephan@st-strittmatter.name'
+                }
             },
             src: ['**/*']
         }
@@ -163,7 +167,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.loadNpmTasks('assemble');
-    
+
     grunt.registerTask('build', ['copy', 'less', 'recess', 'cssmin', 'assemble']);
     grunt.registerTask('default', ['build', 'clean']);
 
