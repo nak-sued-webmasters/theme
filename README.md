@@ -8,6 +8,16 @@ This theme will be used for the districts of the New Apostolic Church at South G
 
 Below you could find the copied description of Themestrap how to setup project.
 
+## Credits
+- [Bootstrap](http://getbootstrap.com): Great responsive HTML5 Toolbox.
+- [Themestrap](https://github.com/divshot/themestrap): Many thanks for providing this usefule basis to develop indvidual themes.
+- [Yamm3 - Yet another megamenu for Bootstrap 3](https://github.com/geedmo/yamm3/): We love this mega menu.
+- [Paypal Bootstrap Accessibility Plugin](https://github.com/paypal/bootstrap-accessibility-plugin): Thanks Paypal-team to support minorities, we will too.
+
+## Copyright and license
+
+Copyright 2015 [the Apache 2.0 license](LICENSE).
+
 ----
 
 # Themestrap
@@ -66,12 +76,6 @@ modifying it as necessary. Example:
 Because it takes path priority over the Bower-installed Bootstrap LESS, it will automatically override the 
 Bootstrap default. In fact, this is how `variables.less` works already...delete it and the default Bootstrap
 variables will be back in play.
-
-## Credits
-- [Bootstrap](http://getbootstrap.com): Great responsive HTML5 Toolbox.
-- [Themestrap](https://github.com/divshot/themestrap): Many thanks for providing this usefule basis to develop indvidual themes.
-- [Yamm3 - Yet another megamenu for Bootstrap 3](https://github.com/geedmo/yamm3/): We love this mega menu.
-- [Paypal Bootstrap Accessibility Plugin](https://github.com/paypal/bootstrap-accessibility-plugin): Thanks Paypal-team to support minorities, we will too.
 
 ## Copyright and license
 
