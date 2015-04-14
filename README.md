@@ -6,7 +6,11 @@
 This Bootstrap based theme is created by using Themestrap. 
 This theme will be used for the districts of the New Apostolic Church at South Germany.
 
-Below you could find the copied description of Themestrap how to setup project.
+## Themestrap
+We forked [Themestrap](https://github.com/divshot/themestrap) and updated references of Bootstrap and also added Yamm3, 
+"Yet another megamenu for Bootstrap 3" and the Paypal Bootstrap Accessibility Plugin.
+
+Below you could find the copied description of Themestrap how to setup project. Many thanks for the provided work by Divshot Inc.
 
 ## Credits
 - [Bootstrap](http://getbootstrap.com): Great responsive HTML5 Toolbox.
@@ -20,13 +24,12 @@ Copyright 2015 [the Apache 2.0 license](LICENSE).
 
 ----
 
-# Themestrap
-https://github.com/divshot/themestrap
-**Themestrap** is a simple starter kit for constructing Twitter Bootstrap 3+ themes. It provides the skeleton
-for a simple, maintainable theme that always uses code directly from Bootstrap with as little replacement as
-possible.
+## Themestrap
+[**Themestrap**](https://github.com/divshot/themestrap) is a simple starter kit for constructing Twitter Bootstrap 3+ themes. 
+It provides the skeleton for a simple, maintainable theme that always uses code directly from Bootstrap with as little replacement 
+as possible.
 
-## Themestrap's Philosophy
+### Themestrap's Philosophy
 
 1. A theme should be built *on top* of the framework, with as little intrusive change as possible.
 2. As the framework evolves, a theme should be easily updated to the latest version.
@@ -36,7 +39,7 @@ and **theme.less** (both in the `less` directory). You can tweak any and all of 
 in **variables.less** and support any additional code or classes you'd like in **theme.less**. The compiled
 theme CSS includes the Bootstrap library and will automatically pick up any overrides from variables.
 
-## Creating a Theme with Themestrap
+### Creating a Theme with Themestrap
 
 To create a theme, first start by cloning the Themestrap repository into a directory named for
 your theme. We recommend a `bootstrap-theme-THEME_NAME` naming scheme:
@@ -55,7 +58,7 @@ Now you're ready to go! Simply edit `less/variables.less` and `less/theme.less` 
 When you're ready, just run `grunt` and it will compile and minify the distribution for you.
 You can also run `grunt watch` to automatically compile as you work.
 
-## Testing Out Your Theme
+### Testing Out Your Theme
 
 We've provided a "Bootstrap Kitchen Sink" HTML file at `examples/kitchen-sink.html` that contains
 all of the various components in all of their variations. It may not be 100% exhaustive but it
@@ -65,7 +68,7 @@ For the specific layout of websites for districts of NAC Southgermany we assambl
 
 You can start a development server at `http://localhost:8000` by running `grunt serve`. Your theme will automatically compile while the server is running.
 
-## Deeper Customization
+### Deeper Customization
 
 In cases where you need to do a more in-depth overhaul of a portion of Bootstrap's LESS, you may do so by
 simply copying over a file from Bootstrap's `less` directory into your theme's `less` directory and then
