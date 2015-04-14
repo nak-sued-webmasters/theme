@@ -51,6 +51,8 @@ We've provided a "Bootstrap Kitchen Sink" HTML file at `examples/kitchen-sink.ht
 all of the various components in all of their variations. It may not be 100% exhaustive but it
 should give you a good idea of what your theme will look like at a glance.
 
+For the specific layout of websites for districts of NAC Southgermany we assambled a prototyp at `examples/nak-bezirk-home.html`.
+
 You can start a development server at `http://localhost:8000` by running `grunt serve`. Your theme will automatically compile while the server is running.
 
 ## Deeper Customization
@@ -59,33 +61,18 @@ In cases where you need to do a more in-depth overhaul of a portion of Bootstrap
 simply copying over a file from Bootstrap's `less` directory into your theme's `less` directory and then
 modifying it as necessary. Example:
 
-    cp bower_components/bootstrap/less/alerts.less less/alerts.less
+    [cp|copy] bower_components/bootstrap/less/alerts.less less/alerts.less
 
 Because it takes path priority over the Bower-installed Bootstrap LESS, it will automatically override the 
 Bootstrap default. In fact, this is how `variables.less` works already...delete it and the default Bootstrap
 variables will be back in play.
 
-## Releasing Your Theme
-
-Before you release your theme, you should do a few things:
-
-1. Make sure that you've updated the package name in `bower.json` and filled out your name, the theme name and GitHub repo info
-2. Check the `index.html` file – it is generated using the information you supplied in `bower.json`.  To change it to suit your needs, edit the template `/pages/index.html`.
-3. Update the `README.md` file to be about your theme
-
-Once you've done that, you should push it up to GitHub. The repository
-is already designed to be released directly onto GitHub Pages without an additional intermediary,
-so if you push to the `gh-pages` branch you should have a nice way to show off your theme!
-
-Also consider [registering a Bower package](https://github.com/bower/bower#registering-packages).
-If you do, remove the `"private": true` property from `bower.json`.
-
-## The Themestrap Gallery
-
-We've created a [gallery of themes built with Themestrap](http://code.divshot.com/themestrap). If you
-have created a theme and want to add it to the gallery, just make a pull request to the [gh-pages](https://github.com/divshot/themestrap/tree/gh-pages)
-branch of this repository.
+## Credits
+- [Bootstrap](http://getbootstrap.com): Great responsive HTML5 Toolbox.
+- [Themestrap](https://github.com/divshot/themestrap): Many thanks for providing this usefule basis to develop indvidual themes.
+- [Yamm3 - Yet another megamenu for Bootstrap 3](https://github.com/geedmo/yamm3/): We love this mega menu.
+- [Paypal Bootstrap Accessibility Plugin](https://github.com/paypal/bootstrap-accessibility-plugin): Thanks Paypal-team to support minorities, we will too.
 
 ## Copyright and license
 
-Copyright 2013 Divshot, Inc. under [the Apache 2.0 license](LICENSE).
+Copyright 2015 [the Apache 2.0 license](LICENSE).

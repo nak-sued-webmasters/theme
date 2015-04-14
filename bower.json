@@ -2,7 +2,7 @@
   "name": "NAC-SouthGermany-District-Theme",
   "version": "0.0.1",
   "private": true,
-  "author": "Stephan Strittmatter",
+  "author": "NAC Southgermany Webmasters",
   "main": "dist/bootstrap.css",
   "themestrap": {
     "name": "NAC Theme",
