@@ -148,12 +148,7 @@ module.exports = function (grunt) {
         clean: ['tmp'],
         'gh-pages': {
             options: {
-                base: '.',
-                repo: 'https://github.com/nak-sued-webmasters/theme.git',
-                user: {
-                    name: 'stritti',
-                    email: 'Stephan@st-strittmatter.name'
-                }
+                base: '.'
             },
             src: ['**/*']
         }

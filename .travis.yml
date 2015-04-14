@@ -18,5 +18,5 @@ before_script:
   - bower install
   
 script:
- - grunt --gruntfile "Gruntfile.js" build gh-pages --verbose
+ - grunt --gruntfile "Gruntfile.js" build --verbose
  
