@@ -161,6 +161,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-text-replace');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-gh-pages');
     grunt.loadNpmTasks('assemble');
     
     grunt.registerTask('build', ['copy', 'less', 'recess', 'cssmin', 'assemble']);
