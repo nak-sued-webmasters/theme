@@ -86,6 +86,12 @@ module.exports = function (grunt) {
             }
         },
         copy: {
+            js: {
+                expand: true,
+                cwd: 'js',
+                src: ['*'],
+                dest: 'dist/js'
+            },
             images: {
                 expand: true,
                 cwd: 'img',

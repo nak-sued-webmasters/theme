@@ -6692,14 +6692,22 @@ h5 {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
+#mainmenu {
+  font-family: CooperHewitt-Semibold;
+}
 #mainmenu .navbar {
   margin-bottom: 0px;
 }
-#mainmenu .navbar-nav {
-  font-family: CooperHewitt-Semibold;
-}
 #mainmenu .navbar-nav li .dropdown-menu {
   background-color: #e2e2e2;
+}
+#mainmenu .close {
+  padding: 0 13px;
+  font-family: CooperHewitt-Medium;
+  font-size: 0.765em;
+  line-height: 36px;
+  background-color: #fff;
+  cursor: pointer;
 }
 #mainmenu li a {
   text-transform: uppercase;
