@@ -2,305 +2,307 @@
 
 <html lang="de">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="{{assets}}/css/bootstrap.css">
-        <link rel="stylesheet" href="{{assets}}/css/bootstrap-accessibility.css">
+      <link rel="stylesheet" href="{{assets}}/css/bootstrap.css">
+      <link rel="stylesheet" href="{{assets}}/css/bootstrap-accessibility.css">
 
-        <link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
 
-        <script type="text/javascript" src="{{assets}}/js/jquery.min.js"></script>
-        <script type="text/javascript" src="{{assets}}/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="{{assets}}/js/bootstrap-accessibility.min.js"></script>
-        <script type="text/javascript" src="{{assets}}/js/script.js"></script>
+      <script type="text/javascript" src="{{assets}}/js/jquery.min.js"></script>
+      <script type="text/javascript" src="{{assets}}/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="{{assets}}/js/bootstrap-accessibility.min.js"></script>
+      <script type="text/javascript" src="{{assets}}/js/script.js"></script>
 
-        <title>NAK Bezirk XY</title>
-    </head>
+      <title>NAK Bezirk XY</title>
+   </head>
 
-    <body>
-        <div class="header container">
+   <body>
+      <div class="header container">
+         <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-8 media">
+               <div class="media-left pull-left">
+                  <a href="nak-bezirk-home.html"><img src="../dist/img/logo_neuapostolische-kirche.jpg" alt="logo"/></a>
+               </div>
+               <div class="media-body">
+                  <div id="nak-brand">Neuapostolische Kirche</div>
+                  <div id="district-brand">im Kirchenbezirk [Bezirk]</div>
+               </div>
+            </div>
+
+            <div id="metamenu" class="col-md-8 col-sm-6 col-xs-4 text-right" role="navigation">
+               <div class="row">
+                  <ul class="pull-right">
+                     <li><a href="nak-bezirk-home.html">Startseite</a></li>
+                     <li><a href="#">Kontakt</a></li>
+                     <li><a href="http://www.nak-sued.de/gemeindesuche/">Gemeindesuche</a></li>
+                  </ul>
+               </div>
+               <div class="row hidden-xs">
+                  <form class="form-inline" action="#">
+                     <div class="input-group">
+                        <label for="search" class="hidden">Suchen:</label>
+                        <input name="search" type="text" title="Suchen" class="form-control" aria-label="Suchen" placeholder="Suchen">
+                        <div class="input-group-btn">
+                           <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="mainmenu">
+         <div class="navbar yamm navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+               </div>
+               <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                     <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                           Wer wir sind <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li>
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-3 list-unstyled">
+                                       <li><a href="bezirk-xy.html">Unser Kirchenbezirk</a></li>
+                                       <li><a href="gemeinden.html">Unsere Gemeinden</a></li>
+                                    </ul>
+
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                           Woran wir glauben <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                           <li>
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-3 list-unstyled">
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/der-dreieinige-gott/" target="_self">Der dreieinige Gott</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirche-jesu-christi/" target="_self">Kirche Jesu Christi</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/suendenvergebung/" target="_self">Sündenvergebung</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirchliche-feiertage/" target="_self">Kirchliche Feiertage</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/wirken-der-apostel/" target="_self">Wirken der Apostel</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-gebote/" target="_self">Gottes Gebote</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-nahesein/" target="_self">Gottes Nahesein</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/sakramente/" target="_self">Sakramente</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/glaubensbekenntnis/" target="_self">Glaubensbekenntnis</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/heilige-schrift/" target="_self">Heilige Schrift</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/evangelium-jesu-christi/" target="_self">Evangelium Jesu Christi</a></li>
+                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/katechismus/" target="_self">Katechismus</a></li>
+                                    </ul>
+                                    <div class="col-sm-3">
+                                       <a href="javascript:void(0);" class="btn btn-lg btn-default close pull-down">Schließen <span aria-hidden="true">&times;</span></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                           Was wir tun <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li>
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-4 list-unstyled">
+                                       <li><a href="#">Musik</a></li>
+                                       <li><a href="#">Kinder</a></li>
+                                       <li><a href="#">Jugend</a></li>
+                                       <li><a href="#">...</a></li>
+                                    </ul>
+                                    <ul class="col-sm-4 list-unstyled">
+
+                                    </ul>
+
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="aktuelles.html">Aktuelles</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="docs-header hidden">
+         <div id="breadcrumb" class="container">
+            <ol class="breadcrumb row">
+               <li><a href="#">Startseite</a></li>
+               <li><a href="#">Woran wir glauben</a></li>
+               <li class="active">Der dreieinige Gott</li>
+            </ol>
+         </div>
+         <div id="pagetitle" class="container">
+            <h1>Kirchenbezirk [Bezirkname] der Neuapostolischen Kirche</h1>
+         </div>
+      </div>
+      <div class="content">
+         <div class="jumbotron hidden-xs">
+            <div class="container">
+               <div class="col-md-6">
+                  <img src="../img/placeholder.JPG" class="img-responsive" alt="Platzhalter" />
+               </div>
+               <div class="col-md-6">
+                  <h2>Willkommen im Bezirk [BEZIRKSNAME]</h2>
+                  <p>
+                     [ANZAHL] neuapostolische Gemeinden bilden den Kirchenbezirk [BEZIRKSNAME].
+                     Er gehört zur Neuapostolischen Kirche Süddeutschland.
+                  </p>
+                  <p>Regelmäßig finden in unseren Gemeinden Gottesdienste sonntags um 9:30 Uhr und mittwochs um 20:00 Uhr statt.
+                     Dazu und zu weiteren Veranstaltungen sind Sie herzlich willkommen.</p>
+                  <p>Über Aktivitäten und Neuigkeiten berichten wir unter Aktuelles.</p>
+                  <a href="#" class="btn btn-primary">Mehr über den Bezirk</a>
+               </div>
+            </div>
+         </div> 
+
+         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-8 media">
-                    <div class="media-left pull-left">
-                        <a href="nak-bezirk-home.html"><img src="../dist/img/logo_neuapostolische-kirche.jpg" alt="logo"/></a>
-                    </div>
-                    <div class="media-body">
-                        <div id="nak-brand">Neuapostolische Kirche</div>
-                        <div id="district-brand">im Kirchenbezirk [Bezirk]</div>
-                    </div>
-                </div>
+               <div class="col-md-8">
 
-                <div id="metamenu" class="col-md-8 col-sm-6 col-xs-4 text-right" role="navigation">
-                    <div class="row">
-                        <ul class="pull-right">
-                            <li><a href="nak-bezirk-home.html">Startseite</a></li>
-                            <li><a href="#">Kontakt</a></li>
-                            <li><a href="http://www.nak-sued.de/gemeindesuche/">Gemeindesuche</a></li>
-                        </ul>
-                    </div>
-                    <div class="row hidden-xs">
-                        <form class="form-inline" action="#">
-                            <div class="input-group">
-                                <label for="search" class="hidden">Suchen:</label>
-                                <input name="search" type="text" title="Suchen" class="form-control" aria-label="Suchen" placeholder="Suchen">
-                                <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="mainmenu">
-            <div class="navbar yamm navbar-default navbar-static-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbar" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown yamm-fw">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    Wer wir sind <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <div class="yamm-content">
-                                            <div class="row">
-                                                <ul class="col-sm-3 list-unstyled">
-                                                    <li><a href="bezirk-xy.html">Unser Kirchenbezirk</a></li>
-                                                    <li><a href="gemeinden.html">Unsere Gemeinden</a></li>
-                                                </ul>
+                  <div class="row">
+                     <h4>Aktuelles</h4>
+                  </div>
 
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown yamm-fw">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    Woran wir glauben <span class="caret"></span>
-                                </a>
-                                                             
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <div class="yamm-content">
-                                            <div class="row">
-                                                <ul class="col-sm-3 list-unstyled">
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/der-dreieinige-gott/" target="_self">Der dreieinige Gott</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirche-jesu-christi/" target="_self">Kirche Jesu Christi</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/suendenvergebung/" target="_self">Sündenvergebung</a></li>
-                                                     <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirchliche-feiertage/" target="_self">Kirchliche Feiertage</a></li>    
-                                                </ul>
-                                                <ul class="col-sm-3 list-unstyled">
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/wirken-der-apostel/" target="_self">Wirken der Apostel</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-gebote/" target="_self">Gottes Gebote</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-nahesein/" target="_self">Gottes Nahesein</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/sakramente/" target="_self">Sakramente</a></li>
-                                                </ul>
-                                                <ul class="col-sm-3 list-unstyled">
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/glaubensbekenntnis/" target="_self">Glaubensbekenntnis</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/heilige-schrift/" target="_self">Heilige Schrift</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/evangelium-jesu-christi/" target="_self">Evangelium Jesu Christi</a></li>
-                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/katechismus/" target="_self">Katechismus</a></li> 
-                                                </ul>
-                                                <div class="col-sm-3">  
-                                                    <a href="javascript:void(0);" class="btn btn-lg btn-default close pull-down">Schließen <span aria-hidden="true">&times;</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown yamm-fw">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    Was wir tun <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <div class="yamm-content">
-                                            <div class="row">
-                                                <ul class="col-sm-4 list-unstyled">
-                                                    <li><a href="#">Musik</a></li>
-                                                    <li><a href="#">Kinder</a></li>
-                                                    <li><a href="#">Jugend</a></li>
-                                                    <li><a href="#">...</a></li>
-                                                </ul>
-                                                <ul class="col-sm-4 list-unstyled">
+                  <div id="bericht1" class="row">
+                     <div class="col-md-4">
+                        <a href="artikel.html">
+                           <img class="img-responsive" src="bilder/DSC04133.jpg" alt="..." >
+                        </a>
+                     </div>
+                     <div class="col-md-8">
+                        <h5 class="media-heading">
+                           <small>14.03.2015 | Gemeinde 2</small><br>
+                           <a href="artikel.html">Missionsreise...</a>
+                        </h5>
+                        <p>Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn,
+                           es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können.</p>
 
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="aktuelles.html">Aktuelles</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="docs-header hidden">
-            <div id="breadcrumb" class="container">
-                <ol class="breadcrumb row">
-                    <li><a href="#">Startseite</a></li>
-                    <li><a href="#">Woran wir glauben</a></li>
-                    <li class="active">Der dreieinige Gott</li>
-                </ol>
-            </div>
-            <div id="pagetitle" class="container">
-                <h1>Kirchenbezirk [Bezirkname] der Neuapostolischen Kirche</h1>
-            </div>
-        </div> 
-        <div class="content">
-            <div class="jumbotron hidden-xs">
-                <div class="container">
-                    <div class="col-md-6">
-                        <img src="../img/placeholder.JPG" class="img-responsive" alt="Platzhalter" />
-                    </div>
-                    <div class="col-md-6">
-                        <h2>Willkommen im Bezirk [BEZIRKSNAME]</h2>
+                        <p><a href="artikel.html">mehr</a></p>
+                     </div>
+                  </div>
+                  <div  class="row">
+                     <div class="col-md-12">&nbsp;</div>
+                  </div>
+                  <div id="bericht2" class="row">
+                     <div class="col-md-4">
+                        <a href="artikel.html">
+                           <img class="img-responsive" src="bilder/DSC04245.jpg" alt="...">
+                        </a>
+                     </div>
+                     <div class="col-md-8">
+                        <h5 class="media-heading">
+                           <small>19.02.2015 | Gemeinde 5</small><br>
+                           <a href="artikel.html">Das ist ein neuer Bericht</a>
+                        </h5>
                         <p>
-                            [ANZAHL] neuapostolische Gemeinden bilden den Kirchenbezirk [BEZIRKSNAME].
-                            Er gehört zur Neuapostolischen Kirche Süddeutschland.
+                           Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
+                           leben die Blindtexte.
                         </p>
-                        <p>Regelmäßig finden in unseren Gemeinden Gottesdienste sonntags um 9:30 Uhr und mittwochs um 20:00 Uhr statt.
-                            Dazu und zu weiteren Veranstaltungen sind Sie herzlich willkommen.</p>
-                        <p>Über Aktivitäten und Neuigkeiten berichten wir unter Aktuelles.</p>
-                        <a href="#" class="btn btn-primary">Mehr über den Bezirk</a>
-                    </div>
-                </div>
+                        <p><a href="artikel.html">mehr</a></p>
+                     </div>
+                     <hr>
+                  </div>
+                  <div  class="row">
+                     <div class="col-md-12">&nbsp;</div>
+                  </div>
+                  <div id="bericht3" class="row">
+                     <div class="col-md-4">
+                        <a href="artikel.html">
+                           <img class="img-responsive" src="bilder/DSC05021.jpg" alt="...">
+                        </a>
+                     </div>
+                     <div class="col-md-8">
+
+                        <h5 class="media-heading">
+                           <small>14.01.2015 | Gemeinde 1</small><br>
+                           <a href="artikel.html">Das ist ein neuer Bericht</a>
+                        </h5>
+                        <p>
+                           Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
+                           leben die Blindtexte.
+                        </p>
+                        <p><a href="artikel.html">mehr</a></p>
+                     </div>
+                  </div>
+                  <div class="row text-center">
+                     <h5><a href="aktuelles.html">Alle Meldungen</a></h5>
+                  </div>
+
+               </div>
+               <div class="col-md-4">
+                  <div class="row">
+                     <h4>Veranstaltungen</h4>
+                  </div>
+                  <div class="row">
+                     <small>Sonntag, 22.03.2015 um 18:00 Uhr</small>
+                     <h5><a href="#">Konzert des Projektchors</a></h5>
+                     <div>Ort: Gemeinde 5</div>
+                  </div>
+                  <div class="row">
+                     <small>Sonntag, 22.03.2015 um 18:00 Uhr</small>
+                     <h5><a href="#">Konzert des Projektchors</a></h5>
+                     <div>Ort: Gemeinde 5</div>
+                  </div>
+                  <div class="row">
+                     <small>Sonntag, 22.03.2015 um 18:00 Uhr</small>
+                     <h5><a href="#">Konzert des Projektchors</a></h5>
+                     <div>Ort: Gemeinde 5</div>
+                  </div>
+                  <div id="wordofmonth" class="row">
+                     <h4>Wort zum Monat</h4>
+                     <blockquote>
+                        <p>Wo Rauch ist, da ist auch Feuer.</p>
+                        <footer><a href="#">weiterlesen</a></footer>
+                     </blockquote>
+                  </div>
+               </div>
             </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-
-                        <div class="row">
-                            <h4>Aktuelles</h4>
-                        </div>
-
-                        <div id="bericht1" class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="http://placehold.it/200x130" alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-
-                                <h5 class="media-heading">
-                                    <small>14.03.2015 | Gemeinde 2</small><br>
-                                    <a href="#">Das ist ein neuer Bericht</a>
-                                </h5>
-                                <p>
-                                    Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
-                                    leben die Blindtexte.
-                                </p>
-                                <p><a href="#">mehr</a></p>
-                            </div>
-                        </div>
-
-                        <div id="bericht2" class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="http://placehold.it/200x130" alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-
-                                <h5 class="media-heading">
-                                    <small>19.02.2015 | Gemeinde 5</small><br>
-                                    <a href="#">Das ist ein neuer Bericht</a>
-                                </h5>
-                                <p>
-                                    Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
-                                    leben die Blindtexte.
-                                </p>
-                                <p><a href="#">mehr</a></p>
-                            </div>
-                        </div>
-
-                        <div id="bericht3" class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="http://placehold.it/200x130" alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-
-                                <h5 class="media-heading">
-                                    <small>14.01.2015 | Gemeinde 1</small><br>
-                                    <a href="#">Das ist ein neuer Bericht</a>
-                                </h5>
-                                <p>
-                                    Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
-                                    leben die Blindtexte.
-                                </p>
-                                <p><a href="#">mehr</a></p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <h5><a href="#">Alle Meldungen</a></h5>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <h4>Veranstaltungen</h4>
-                        </div>
-                        <div class="row">
-                            <small>Sonntag, 22.03.2015 um 18:00 Uhr</small>
-                            <h5><a href="#">Konzert des Projektchors</a></h5>
-                            <div>Ort: Gemeinde 5</div>
-                        </div>
-                        <div class="row">
-                            <small>Sonntag, 22.03.2015 um 18:00 Uhr</small>
-                            <h5><a href="#">Konzert des Projektchors</a></h5>
-                            <div>Ort: Gemeinde 5</div>
-                        </div>
-                        <div class="row">
-                            <small>Sonntag, 22.03.2015 um 18:00 Uhr</small>
-                            <h5><a href="#">Konzert des Projektchors</a></h5>
-                            <div>Ort: Gemeinde 5</div>
-                        </div>
-                        <div id="wordofmonth" class="row">
-                            <h4>Wort zum Monat</h4>
-                            <blockquote>
-                                <p>Wo Rauch ist, da ist auch Feuer.</p>
-                                <footer><a href="#">weiterlesen</a></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-sm-6">
+                  &copy; 1999-2015 Neuapostolische Kirche &dash; Kirchenbezirk [Bezirk]
+               </div>
+               <div class="col-md-6 col-sm-6">
+                  <ul class="list-inline">
+                     <li><a href="#">NAK Süddeutschland</a></li>
+                     <li><a href="#">Kontakt</a></li>
+                     <li><a href="#">Impressum/Datenschutz</a></li>
+                  </ul>
+               </div>
             </div>
-        </div>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        &copy; 1999-2015 Neuapostolische Kirche &dash; Kirchenbezirk [Bezirk]
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <ul class="list-inline">
-                            <li><a href="#">NAK Süddeutschland</a></li>
-                            <li><a href="#">Kontakt</a></li>
-                            <li><a href="#">Impressum/Datenschutz</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+         </div>
+      </div>
+   </body>
 
 </html>
