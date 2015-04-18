@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400);
 /*!
  * Your Theme Name v0.1.0
  *
@@ -1082,7 +1083,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Open Sans, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -5821,7 +5822,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Open Sans, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5928,7 +5929,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Open Sans, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6590,27 +6591,6 @@ button.close {
 * Include Fonts
 **********************************************************************/
 @font-face {
-  font-family: 'CooperHewitt-Book';
-  src: url('../fonts/CooperHewitt-Book.eot');
-  src: url('../fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperHewitt-Book.woff') format('woff'), url('../fonts/CooperHewitt-Book.ttf') format('truetype'), url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CooperHewitt-Medium';
-  src: url('../fonts/CooperHewitt-Medium.eot');
-  src: url('../fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperHewitt-Medium.woff') format('woff'), url('../fonts/CooperHewitt-Medium.ttf') format('truetype'), url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CooperHewitt-Semibold';
-  src: url('../fonts/CooperHewitt-Semibold.eot');
-  src: url('../fonts/CooperHewitt-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperHewitt-Semibold.woff') format('woff'), url('../fonts/CooperHewitt-Semibold.ttf') format('truetype'), url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'PT-Sans-Bold';
   src: url('../fonts/PT-Sans-Bold.eot');
   src: url('../fonts/PT-Sans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/PT-Sans-Bold.woff') format('woff'), url('../fonts/PT-Sans-Bold.ttf') format('truetype'), url('../fonts/PT-Sans-Bold.svg#PT-Sans-Bold') format('svg');
@@ -6620,7 +6600,6 @@ button.close {
 h4 {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: CooperHewitt-Semibold;
 }
 h4:before {
   content: "\e074";
@@ -6692,9 +6671,6 @@ h5 {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
-#mainmenu {
-  font-family: CooperHewitt-Semibold;
-}
 #mainmenu .navbar {
   margin-bottom: 0px;
 }
@@ -6703,7 +6679,6 @@ h5 {
 }
 #mainmenu .close {
   padding: 0 13px;
-  font-family: CooperHewitt-Medium;
   font-size: 0.765em;
   line-height: 36px;
   background-color: #fff;
@@ -6729,7 +6704,6 @@ h5 {
   background-color: #4b90cd;
   margin-bottom: 2em;
   color: #fff;
-  font-family: CooperHewitt-Medium;
 }
 .docs-header .breadcrumb a {
   color: #b7d2eb;
@@ -6747,7 +6721,6 @@ h5 {
   margin-top: 2em;
 }
 .footer {
-  font-family: CooperHewitt-Book;
   font-weight: normal;
   font-style: normal;
   background-color: #4b90cd;
