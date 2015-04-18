@@ -11,41 +11,12 @@
 
 @import "bootstrap.less";
 @import "yamm.less";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400);
 
 // Add CSS Customizations to your theme here.
 /**********************************************************************
 * Include Fonts
 **********************************************************************/
-@font-face {
-   font-family: 'CooperHewitt-Book';
-   src: url('../fonts/CooperHewitt-Book.eot');
-   src: url('../fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CooperHewitt-Book.woff') format('woff'),
-      url('../fonts/CooperHewitt-Book.ttf') format('truetype'),
-      url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-   font-weight: normal;
-   font-style: normal;
-}
-@font-face {
-   font-family: 'CooperHewitt-Medium';
-   src: url('../fonts/CooperHewitt-Medium.eot');
-   src: url('../fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CooperHewitt-Medium.woff') format('woff'),
-      url('../fonts/CooperHewitt-Medium.ttf') format('truetype'),
-      url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-   font-weight: normal;
-   font-style: normal;
-}
-@font-face {
-   font-family: 'CooperHewitt-Semibold';
-   src: url('../fonts/CooperHewitt-Semibold.eot');
-   src: url('../fonts/CooperHewitt-Semibold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CooperHewitt-Semibold.woff') format('woff'),
-      url('../fonts/CooperHewitt-Semibold.ttf') format('truetype'),
-      url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
-   font-weight: normal;
-   font-style: normal;
-}
 @font-face {
    font-family: 'PT-Sans-Bold';
    src: url('../fonts/PT-Sans-Bold.eot');
@@ -58,13 +29,12 @@
 }
 
 body {
-   //font-family: CooperHewitt-Book;
+ 
 }
 
 h4 {
    text-transform: uppercase;
    font-weight: 500;
-   font-family: CooperHewitt-Semibold;
 }
 h4:before {
    content: "\e074";
@@ -139,7 +109,6 @@ h5 {
    }
 }
 #mainmenu {
-   font-family: CooperHewitt-Semibold;
    
    .navbar {
       margin-bottom: 0px;
@@ -155,7 +124,6 @@ h5 {
 
    .close {
       padding: 0 13px;
-      font-family: CooperHewitt-Medium;
       font-size: 0.765em;
       line-height: 36px;
       background-color: #fff;
@@ -198,7 +166,6 @@ h5 {
    //padding: 30px 0;
    margin-bottom: 2em;
    color: #fff;
-   font-family: CooperHewitt-Medium;
 
    .breadcrumb {
 
@@ -229,7 +196,6 @@ h5 {
 
 
 .footer {
-   font-family: CooperHewitt-Book;
    font-weight: normal;
    font-style: normal;
    background-color: @brand-primary;
