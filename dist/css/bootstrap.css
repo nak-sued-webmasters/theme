@@ -6720,6 +6720,23 @@ h5 {
 .content #wordofmonth {
   margin-top: 2em;
 }
+.calendar .entry {
+  border-bottom-color: #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.calendar .month-start {
+  border-top-color: #4b90cd;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+.calendar .month {
+  color: #4b90cd;
+  font-weight: 700;
+}
+.calendar .date {
+  font-weight: 700;
+}
 .footer {
   font-weight: normal;
   font-style: normal;
