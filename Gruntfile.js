@@ -46,7 +46,7 @@ module.exports = function (grunt) {
                 tasks: ['cssmin:minify']
             },
             assemble: {
-                files: ['pages/*.html', 'pages/examples/*', 'README.md'],
+                files: ['pages/*.html', 'pages/examples/*', 'pages/tut/*', 'README.md'],
                 tasks: ['assemble']
             },
             copy: {
@@ -81,7 +81,8 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'index.html': ['pages/index.html'],
-                    'examples/': ['pages/examples/*.html']
+                    'examples/': ['pages/examples/*.html'],
+                    'tuttlingen/': ['pages/tut/*.html']
                 }
             }
         },
