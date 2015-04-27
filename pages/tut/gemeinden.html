@@ -2,292 +2,490 @@
 
 <html lang="de">
 
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="stylesheet" href="{{assets}}/css/bootstrap.css">
+        <link rel="stylesheet" href="../dist/css/bootstrap.css">
 
-      <link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
-      <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="../dist/img/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="../dist/img/favicon.ico" type="image/x-icon" />
 
-      <script type="text/javascript" src="{{assets}}/js/jquery.min.js"></script>
-      <script type="text/javascript" src="{{assets}}/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../dist/js/jquery.min.js"></script>
+        <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
 
-      <title>NAK Gemeinde XX</title>
-   </head>
+        <title>NAK Gemeinde XX</title>
+    </head>
 
-   <body>
-      <div class="header container">
-         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-8 media">
-               <div class="media-left pull-left">
-                  <a href="nak-bezirk-home.html"><img src="../dist/img/nak-logo.png" alt="logo" width="80"/></a>
-               </div>
-               <div class="media-body">
-                  <div id="nak-brand">Neuapostolische Kirche</div>
-                  <div id="district-brand">im Kirchenbezirk Tuttlingen</div>
-               </div>
-            </div>
-
-            <div id="metamenu" class="col-md-8 col-sm-6 col-xs-4 text-right" role="navigation">
-               <div class="row">
-                  <ul class="pull-right">
-                     <li><a href="nak-bezirk-home.html">Startseite</a></li>
-                     <li><a href="#">Kontakt</a></li>
-                     <li><a href="http://www.nak-sued.de/gemeindesuche/">Gemeindesuche</a></li>
-                  </ul>
-               </div>
-               <div class="row hidden-xs">
-                  <form class="form-inline" action="#">
-                     <div class="input-group">
-                        <input type="text" class="form-control" aria-label="Suchen" placeholder="Suchen">
-                        <div class="input-group-btn">
-                           <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div id="mainmenu">
-         <div class="navbar yamm navbar-default navbar-static-top" role="navigation">
-            <div class="container">
-               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                  </button>
-               </div>
-               <div id="navbar" class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav">
-                     <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                           Wer wir sind <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                           <li>
-                              <div class="yamm-content">
-                                 <div class="row">
-                                    <ul class="col-sm-3 list-unstyled">
-                                       <li><a href="bezirk-xy.html">Unser Kirchenbezirk</a></li>
-                                       <li><a href="gemeinden.html">Unsere Gemeinden</a></li>
-                                    </ul>
-
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                           Woran wir glauben <span class="caret"></span>
-                        </a>
-
-                        <ul class="dropdown-menu" role="menu">
-                           <li>
-                              <div class="yamm-content">
-                                 <div class="row">
-                                    <ul class="col-sm-3 list-unstyled">
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/der-dreieinige-gott/" target="_self">Der dreieinige Gott</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirche-jesu-christi/" target="_self">Kirche Jesu Christi</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/suendenvergebung/" target="_self">Sündenvergebung</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirchliche-feiertage/" target="_self">Kirchliche Feiertage</a></li>
-                                    </ul>
-                                    <ul class="col-sm-3 list-unstyled">
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/wirken-der-apostel/" target="_self">Wirken der Apostel</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-gebote/" target="_self">Gottes Gebote</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-nahesein/" target="_self">Gottes Nahesein</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/sakramente/" target="_self">Sakramente</a></li>
-                                    </ul>
-                                    <ul class="col-sm-3 list-unstyled">
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/glaubensbekenntnis/" target="_self">Glaubensbekenntnis</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/heilige-schrift/" target="_self">Heilige Schrift</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/evangelium-jesu-christi/" target="_self">Evangelium Jesu Christi</a></li>
-                                       <li><a href="http://www.nak-sued.de/woran-wir-glauben/katechismus/" target="_self">Katechismus</a></li>
-                                    </ul>
-                                    <div class="col-sm-3">
-
-                                    </div>
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                           Was wir tun <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                           <li>
-                              <div class="yamm-content">
-                                 <div class="row">
-                                    <ul class="col-sm-4 list-unstyled">
-                                       <li><a href="#">Musik</a></li>
-                                       <li><a href="#">Kinder</a></li>
-                                       <li><a href="#">Jugend</a></li>
-                                       <li><a href="#">...</a></li>
-                                    </ul>
-                                    <ul class="col-sm-4 list-unstyled">
-
-                                    </ul>
-
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><a href="aktuelles.html">Aktuelles</a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="docs-header">
-         <div id="breadcrumb" class="container">
-            <ol class="breadcrumb row">
-               <li><a href="nak-bezirk-home.html">Startseite</a></li>
-               <li><a href="#">Wer wir sind</a></li>
-               <li class="active">Unsere Gemeinden</li>
-            </ol>
-         </div>
-         <div id="pagetitle" class="container">
-            <h1>Unsere Gemeinden</h1>
-         </div>
-      </div>
-
-      <div class="container">
-         <div class="row">
-            <div class="church col-md-6 col-xs-12">
-               <div class="col-xs-6">
-                  <a href="engen.html"><img src="/img/gemeinden/engen.jpg" alt="" class="img-responsive"  /></a>
-               </div>
-               <div class="col-xs-6">
-                  <h3><a href="engen.html">Engen</a>  </h3>
-                  <p>
-                     Distelstraße 12<br/>
-                     78234 Engen
-                  </p>
-                  <div>
-                     Gottesdienste:
-                     <ul>
-                        <li>Sonntag: 9:30 Uhr</li>
-                        <li>Donnerstag: 20:00 Uhr</li>
-
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-xs-12"><hr></div>
-            </div>
-            <div class="col-md-6 col-xs-12">
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><img src="/img/gemeinden/gailingen.jpg" alt="" class="img-responsive"  /></a>
-               </div>
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><h3>Gailingen</h3></a>
-                  <img src="../img/barrierefrei.png" alt="Barrierefrei" title="Barrierefrei" class="pull-right"/>
-                  <p>
-                  
-                     Genterweg 1<br/>
-                     78262 Gailingen
-                  </p>
-                  <div>
-                     Gottesdienste:
-                     <ul>
-                        <li>Sonntag: 9:30 Uhr</li>
-                        <li>Mittwoch: 20:00 Uhr</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-xs-12"><hr></div>
-            </div>
-            <div class="col-md-6 col-xs-12"> 
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><img src="/img/gemeinden/stockach.jpg" alt="" class="img-responsive"  /></a>
-               </div> 
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><h3>Stockach</h3></a>
-                  <img src="../img/satellituebertragung.png" alt="Stellitenübertragung" title="Stellitenübertragung" class="pull-right"/>
-    
-                  <p>
-                     Victor-von-Scheffel-Straße 3<br />
-                     70333 Stockach
-                  </p>
-                  <div>
-                     Gottesdienste:
-                     <ul>
-                        <li>Sonntag: 9:30 Uhr</li>
-                        <li>Mittwoch: 20:00 Uhr</li>
-                        
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-xs-12"><hr></div>
-            </div>
-            <div class="col-md-6 col-xs-12">
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><img src="{{assets}}/img/placeholder.JPG" alt="" class="img-responsive"  /></a>
-               </div>
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><h3>Gemeinde XY</h3></a>
-                  <p>
-                     Leinfeldener Straße 23<br />
-                     70597 Stuttgart-Degerloch
-                  </p>
-                  <div>
-                     Gottesdienste:
-                     <ul>
-                        <li>Mittwoch: 20:00 Uhr</li>
-                        <li>Sonntag: 9:30 Uhr</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-xs-12"><hr></div>
-            </div>
-            <div class="col-md-6 col-xs-12">
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><img src="{{assets}}/img/placeholder.JPG" alt="" class="img-responsive"  /></a>
-               </div>
-               <div class="col-xs-6">
-                  <a href="nak-gemeinde.html"><h3>Gemeinde XY</h3></a>
-                  <img src="../img/teilweise-barrierefrei.png" alt="teilweise barrierefrei" title="teilweise barrierefrei" class="pull-right"/>
-                  <p>
-                     Leinfeldener Straße 23<br />
-                     70597 Stuttgart-Degerloch
-                  </p>
-                  <div>
-                     Gottesdienste:
-                     <ul>
-                        <li>Mittwoch: 20:00 Uhr</li>
-                        <li>Sonntag: 9:30 Uhr</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-xs-12"><hr></div>
-            </div>
-         </div>
-      </div>
-
-      <div class="footer">
-         <div class="container">
+    <body>
+        <div class="header container">
             <div class="row">
-               <div class="col-md-6 col-sm-6">
-                  &copy; 1999-2015 Neuapostolische Kirche &dash; Kirchenbezirk [Bezirk]
-               </div>
-               <div class="col-md-6 col-sm-6">
-                  <ul class="list-inline">
-                     <li><a href="#">NAK Süddeutschland</a></li>
-                     <li><a href="#">Kontakt</a></li>
-                     <li><a href="#">Impressum/Datenschutz</a></li>
-                  </ul>
-               </div>
+                <div class="col-md-4 col-sm-6 col-xs-8 media">
+                    <div class="media-left pull-left">
+                        <a href="index.html"><img src="../dist/img/nak-logo.png" alt="logo" width="80"/></a>
+                    </div>
+                    <div class="media-body">
+                        <div id="nak-brand">Neuapostolische Kirche</div>
+                        <div id="district-brand">im Kirchenbezirk Tuttlingen</div>
+                    </div>
+                </div>
+
+                <div id="metamenu" class="col-md-8 col-sm-6 col-xs-4 text-right" role="navigation">
+                    <div class="row">
+                        <ul class="pull-right">
+                            <li><a href="nak-bezirk-home.html">Startseite</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="http://www.nak-sued.de/gemeindesuche/">Gemeindesuche</a></li>
+                        </ul>
+                    </div>
+                    <div class="row hidden-xs">
+                        <form class="form-inline" action="#">
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="Suchen" placeholder="Suchen">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </body>
+        </div>
+        <div id="mainmenu">
+            <div class="navbar yamm navbar-default navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown yamm-fw">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    Wer wir sind <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <div class="yamm-content">
+                                            <div class="row">
+                                                <ul class="col-sm-3 list-unstyled">
+                                                    <li><a href="bezirk-xy.html">Unser Kirchenbezirk</a></li>
+                                                    <li><a href="gemeinden.html">Unsere Gemeinden</a></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown yamm-fw">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    Woran wir glauben <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <div class="yamm-content">
+                                            <div class="row">
+                                                <ul class="col-sm-3 list-unstyled">
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/der-dreieinige-gott/" target="_self">Der dreieinige Gott</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirche-jesu-christi/" target="_self">Kirche Jesu Christi</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/suendenvergebung/" target="_self">Sündenvergebung</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/kirchliche-feiertage/" target="_self">Kirchliche Feiertage</a></li>
+                                                </ul>
+                                                <ul class="col-sm-3 list-unstyled">
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/wirken-der-apostel/" target="_self">Wirken der Apostel</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-gebote/" target="_self">Gottes Gebote</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/gottes-nahesein/" target="_self">Gottes Nahesein</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/sakramente/" target="_self">Sakramente</a></li>
+                                                </ul>
+                                                <ul class="col-sm-3 list-unstyled">
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/glaubensbekenntnis/" target="_self">Glaubensbekenntnis</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/heilige-schrift/" target="_self">Heilige Schrift</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/evangelium-jesu-christi/" target="_self">Evangelium Jesu Christi</a></li>
+                                                    <li><a href="http://www.nak-sued.de/woran-wir-glauben/katechismus/" target="_self">Katechismus</a></li>
+                                                </ul>
+                                                <div class="col-sm-3">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown yamm-fw">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    Was wir tun <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <div class="yamm-content">
+                                            <div class="row">
+                                                <ul class="col-sm-4 list-unstyled">
+                                                    <li><a href="#">Musik</a></li>
+                                                    <li><a href="#">Kinder</a></li>
+                                                    <li><a href="#">Jugend</a></li>
+                                                    <li><a href="#">...</a></li>
+                                                </ul>
+                                                <ul class="col-sm-4 list-unstyled">
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="aktuelles.html">Aktuelles</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="docs-header">
+            <div id="breadcrumb" class="container">
+                <ol class="breadcrumb row">
+                    <li><a href="nak-bezirk-home.html">Startseite</a></li>
+                    <li><a href="#">Wer wir sind</a></li>
+                    <li class="active">Unsere Gemeinden</li>
+                </ol>
+            </div>
+            <div id="pagetitle" class="container">
+                <h1>Unsere Gemeinden</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="church col-md-6 col-xs-12">
+                    <div class="col-xs-6">
+                        <a href="engen.html"><img src="/img/gemeinden/engen.jpg" alt="" class="img-responsive"  /></a>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3><a href="engen.html">Engen</a>  </h3>
+                        <p>
+                            Distelstraße 12<br/>
+                            78234 Engen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Donnerstag: 20:00 Uhr</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/gailingen.jpg" alt="" class="img-responsive"  /></a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Gailingen</h3></a>
+                        <img src="../img/barrierefrei.png" alt="Barrierefrei" title="Barrierefrei" class="pull-right"/>
+                        <p>
+
+                            Genterweg 1<br/>
+                            78262 Gailingen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>    
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/immendingen.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Immendingen</h3></a>
+
+                        <p>
+                            Bachzimmerer-Ösch 13<br />
+                            78194 Immendingen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Donnerstag 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/konstanz.jpg" alt="" class="img-responsive"  /></a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Konstanz</h3></a>
+                        <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                        <p>
+                            Wollmatinger Straße 40<br />
+                            78467 Konstanz
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Mittwoch: 20:00 Uhr</li>
+                                <li>Sonntag: 9:30 Uhr</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>             
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/meersburg.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Meersburg</h3></a>
+                        <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                        <img src="../img/teilweise-barrierefrei.png" alt="teilweise barrierefrei" title="eingeschränkt behindertengerechts Gebäude" class="pull-right"/>
+                        <p>
+                            Allmendweg 10<br />
+                            88709 Meersburg
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Donnerstag 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>             
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/messkirch.JPG" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Meßkirch</h3></a>
+                        <p>
+                            Ziegelbühlstraße 28<br />
+                            88605 Meßkirch
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Donnerstag 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>  
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/pfullendorf.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Pfullendorf</h3></a>
+                       <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                        <img src="../img/barrierefrei.png" alt="barrierefrei" title="behindertengerechts Gebäude" class="pull-right"/>
+                        
+                        <p>
+                            Paul-Heilig-Straße 3<br />
+                            88630 Pfullendorf
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/radolfzell.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Radolfzell</h3></a>
+                         
+                        <p>
+                            Friedhofstraße 11<br />
+                            78315 Radolfzell am Bodensee
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div> 
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/salem-mimmenhausen.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Salem-Mimmenhausen</h3></a>
+                         
+                        <p>
+                            Tüfinger Straße 4<br />
+                            88682 Salem
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>                  
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/sigmaringen.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Sigmaringen</h3></a>
+                        <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/> 
+                        <p>
+                            Josefstraße 28a<br />
+                            72488 Sigmaringen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>  
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/singen.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Singen</h3></a>
+                       <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                        <img src="../img/barrierefrei.png" alt="barrierefrei" title="behindertengerechts Gebäude" class="pull-right"/>
+                        
+                        <p>
+                            Ringstraße 8<br />
+                            78224 Singen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div> 
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/stockach.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Stockach</h3></a>
+                       <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                       
+                        
+                        <p>
+                            Viktor-von-Scheffel-Straße 3<br />
+                            78333 Stockach
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div> 
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/tuttlingen.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Tuttlingen</h3></a>
+                       <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                       
+                        
+                        <p>
+                            Uhlandstraße 24<br />
+                            78532 Tuttlingen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div> 
+                <div class="col-md-6 col-xs-12"> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><img src="/img/gemeinden/ueberlingen.jpg" alt="" class="img-responsive"  /></a>
+                    </div> 
+                    <div class="col-xs-6">
+                        <a href="nak-gemeinde.html"><h3>Überlingen</h3></a>
+                       <img src="../img/satellituebertragung.png" alt="Satellitenempfang" title="Satellitenempfang" class="pull-right"/>
+                       
+                        
+                        <p>
+                            Breitlestraße 28<br />
+                            88662 Überlingen
+                        </p>
+                        <div>
+                            Gottesdienste:
+                            <ul>
+                                <li>Sonntag: 9:30 Uhr</li>
+                                <li>Mittwoch: 20:00 Uhr</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><hr></div>
+                </div>                  
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        &copy; 1999-2015 Neuapostolische Kirche &dash; Kirchenbezirk Tuttlingen
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="list-inline">
+                            <li><a href="#">NAK Süddeutschland</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="#">Impressum/Datenschutz</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 
 </html>
