@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap":"3.3.4",
+    "bootstrap":"3.3.5",
     "yamm3": "1.0.0",
     "bootstrapaccessibilityplugin": "1.0.4"
   }
